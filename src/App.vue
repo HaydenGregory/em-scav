@@ -1,8 +1,6 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+  <notifications position="top left" width="300" />
+  <img alt="Tom" class="tom" src="./assets/tom.svg" />
   <router-view />
 </template>
 
@@ -13,6 +11,22 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-image: url("./assets/background.jpeg");
+  height: 100vh;
+}
+
+.card {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 2px;
+}
+
+.button {
+  margin: 10px;
+}
+
+.tom {
+  margin: 3rem 0 2rem 0;
 }
 
 nav {
