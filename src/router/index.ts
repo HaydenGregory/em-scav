@@ -3,6 +3,8 @@ import HomeView from "../views/HomeView.vue";
 import FirstView from "../views/FirstView.vue";
 import SecondView from "../views/SecondView.vue";
 import ThirdView from "../views/ThirdView.vue";
+import HomeVideoViewVue from "@/views/HomeVideoView.vue";
+import PartyView from "@/views/PartyView.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -24,6 +26,16 @@ const routes: Array<RouteRecordRaw> = [
     path: "/third",
     name: "third",
     component: ThirdView,
+  },
+  {
+    path: "/homevideo",
+    name: "homevideo",
+    component: HomeVideoViewVue,
+  },
+  {
+    path: "/party",
+    name: "party",
+    component: PartyView,
   },
 ];
 

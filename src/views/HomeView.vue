@@ -1,4 +1,5 @@
 <template>
+  <img alt="Tom" class="tom" src="../assets/tom.svg" />
   <div class="home">
     <b-card class="card">
       <ScavBasic msg="Hi Emily! To start, please enter our anniversary date" />

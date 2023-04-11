@@ -1,6 +1,5 @@
 <template>
   <notifications position="top left" width="300" />
-  <img alt="Tom" class="tom" src="./assets/tom.svg" />
   <router-view />
 </template>
 

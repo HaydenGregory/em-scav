@@ -1,4 +1,5 @@
 <template>
+  <img alt="Tom" class="tom" src="../assets/tom.svg" />
   <div class="third">
     <b-card>
       <ScavBasic
@@ -64,7 +65,7 @@ export default defineComponent({
         this.form.answer == "Liquor Barn " ||
         this.form.answer == "Liquor Barn"
       ) {
-        this.$router.push("/final");
+        this.$router.push("/homevideo");
       } else {
         alert("Sorry, that's not the right answer. Try again!");
       }

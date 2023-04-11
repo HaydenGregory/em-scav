@@ -1,4 +1,5 @@
 <template>
+  <img alt="Tom" class="tom" src="../assets/tom.svg" />
   <div class="first">
     <b-card class="card">
       <ScavBasic
